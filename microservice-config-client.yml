@@ -19,7 +19,7 @@ server:
 spring:
   profiles: test  #测试环境 
   application:
-    name: microservice-config-test
+    name: microservice-config-test-1
 eureka:  #设置eureka注册服务的地址
   client:
     service-url:
