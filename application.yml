@@ -1,17 +1,17 @@
 spring:
-    profiles:
-        active:
-       - dev
+  profiles:
+    ctive:
+      -dev
 ---
 spring:
-    profiles: dev  #开发环境
-    application:
-          name: microservice-config-dev
+  profiles: dev  #开发环境
+  application:
+    name: microservice-config-dev
 
 ---
 spring:
-    profiles: test  #测试环境 
-    application:
-            name: microservice-config-test
+  profiles: test  #测试环境 
+  application:
+    name: microservice-config-test
 # 保存方式 必须 utf-8 不然提交会出错            
      
